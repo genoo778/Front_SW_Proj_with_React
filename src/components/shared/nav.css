@@ -1,0 +1,37 @@
+/* navbar */
+nav .logo{
+
+
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 800;
+    
+    letter-spacing: 1px;
+    color: #fff;
+    }
+    
+    
+    nav .nav-item {
+    padding-top: 15px;
+    padding-right: 10px;
+    }
+    
+    
+    #navbar .active{
+    color: white;
+    
+    }
+    #navbar .nav-item .nav-link{
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    }
+    #navbar .nav-item .nav-link:hover{
+   color: red;
+    background-color:#e2e2e2;
+    
+    }
+    #navbar .nav-item .nav-link.active::after{
+    left: 9%;
+    }
+   

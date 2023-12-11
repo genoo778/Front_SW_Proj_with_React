@@ -1,0 +1,75 @@
+
+#Design_Phase .contact-head{
+    display: inline-block ;
+    z-index: 4;
+    position: relative;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #343434;
+    font-family: 'Montserrat', sans-serif;}
+
+
+
+#Design_Phase .contact_input{
+    background-color: #F4F4F4;
+}
+#Design_Phase .btn{
+    background-color: black;
+    color: white;
+}
+#Design_Phase .btn:hover{
+    color: black;
+    background-color: white;
+
+}
+
+#Design_Phase .another{
+    background-color: white;
+    color: black;
+}
+#Design_Phase .another:hover{
+    background-color: rgb(214, 64, 64);
+    color: white;
+}
+#Design_Phase .circle-border{
+    transition: all 500ms ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F4F4F4;
+   
+}
+#Design_Phase .circle-border i{
+    color: #343434;
+
+}
+.contact_info:hover .circle-border{
+    background-color:#343434 !important;
+}
+.contact_info:hover .circle-border i{
+    color:white !important;
+}
+#Design_Phase .form-control{
+    border: none;
+    background-color: #f4f4f4;
+    box-shadow: none;
+}
+#Design_Phase .contact_info p{
+    color: #748182;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    
+    font-size: medium;
+
+}
+
+#Design_Phase .form-control::placeholder{
+    font-weight:400;
+    color: #748182;
+}

@@ -1,0 +1,119 @@
+
+/*portfolio*/
+#portofolio .portofolio-head{
+    display: inline-block ;
+    z-index: 4;
+    position: relative;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #343434;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#portofolio .portofolio-head::after{
+    content: "";
+    width: 100%;
+    height: 27%;
+    position: absolute;
+    left: 0px;
+    bottom: 1px;
+    background-image: url();
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+#portofolio .portofolio-body .nav-link{
+    padding: 10px;
+    color: black;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#portofolio .portofolio-body .nav-item .nav-link::after{
+    transition: all ease-in-out 0.1s;
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    bottom: 5px;
+    left:10%;
+    background-color: black;
+}
+
+#portofolio .portofolio-body .nav-item .nav-link.active::after{
+    width: 80%;
+}
+
+#portofolio .portofolio-image{
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#portofolio .portofolio-image img{
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+
+
+#portofolio .portofolio-layer{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.93);
+    width: 96%;
+    height: 96%;  
+    left: 2%;
+    bottom: 0;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+}
+#portofolio .portofolio-image:hover .portofolio-layer{
+    opacity: 1;
+    bottom: 2%;
+}
+#portofolio .portofolio-layer .layer-context2 h6{
+    transform: translateY(-10px);
+    transition: all ease-in-out 0.4s;
+}
+#portofolio .portofolio-image:hover .portofolio-layer .layer-context2 h6{
+    transform: translateY(0);
+}
+#portofolio .portofolio-layer .layer-context2 .photo-icons{
+    transform: translateY(10px);
+    transition: all ease-in-out 0.4s;
+}
+#portofolio .portofolio-image:hover .portofolio-layer .layer-context2 .photo-icons{
+    transform: translateY(0);
+}
+#portofolio .portofolio-layer .layer-context2{
+    text-align: center;
+    
+    font-family: 300;
+}
+#portofolio .portofolio-body .icon_layer{
+    border: 1px solid black;
+    width: 35px;
+    height: 35px;
+}
+#portofolio .portofolio-body .icon_layer:hover{
+    background-color: white !important;
+}
+#portofolio .portofolio-body .icon_layer:hover a{
+    color: #000 !important;
+}

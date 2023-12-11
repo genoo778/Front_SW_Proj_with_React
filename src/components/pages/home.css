@@ -1,0 +1,73 @@
+#Services{
+    background-color: #f5f5f5;
+}
+
+.title-box button{
+    font-weight: bold;
+    font-size: 2rem;
+    color: #343434;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block ;
+    
+}
+
+
+
+.service-content{
+    color:#748182;
+    font-family: "system-ui", "-apple-system", "Segoe UI";
+    font-size: 10px;
+}
+.service-content p{
+    font-size: 15px;
+    color: #748182;
+}
+.service-content h2{
+    font-size: 18px;
+    
+}
+
+.service-box{
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+}
+
+#Services .circle-border{
+    transition: all 500ms ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F4F4F4;
+   
+}
+#Services .circle-border i{
+    color: #343434;
+
+}
+.service-box:hover .circle-border{
+ 
+    background-color:#343434 !important;
+}
+
+.service-box:hover i{
+    color: #F4F4F4 !important;
+}
+
+.service-box-title{
+    color: #1E1E1E;
+   
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.service-box-description{
+    color: #4E4E4E;
+}

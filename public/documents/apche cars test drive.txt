@@ -1,0 +1,13 @@
+We are choosing clients suitable for Apache car terms.
+  We will do a test drive for customers, targeting people who take care of cars and drive safely.
+  The test will be based on a specific device installed in the car that will give a full report on the driver's performance immediately upon disembarkation and delivery of the cars.
+Send the report for analysis and evaluation of the driver immediately upon arrival.
+The rating is shown to the driver
+The report is used to determine whether the driver will be allowed to request again or not, so that if the evaluation is good, requests will be received from him again and other, better, and newer cars will be opened for him.
+  If the evaluation is average, regular cars will be allowed.
+If the evaluation is poor, applications will not be received again.
+  The idea is based on making the driver challenge himself to drive safely because he knows that if he uses the car safely, he will use better cars later.
+.
+  The test can be a separate program as it can be used separately without the main program
+  The innovation of the driving test is based on complex software foundations that use machine learning research. The program uses readings from our board, containing sensors, electronic parts, and an embedded system.
+Note: The part of the board and the embedded system can be dispensed with at the time of the discussion so that it is replaced by using readings and data sets that simulate the data coming out of the board.
